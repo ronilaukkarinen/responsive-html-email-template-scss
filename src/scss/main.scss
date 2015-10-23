@@ -2,6 +2,7 @@
 
 $color__base: #111111;
 $color__alt: #348eda;
+$color__footer: #999999;
 $websafefonts: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 
 /* -------------------------------------
@@ -97,13 +98,13 @@ table.footer-wrap {
 }
 
 .footer-wrap .container p {
-  color: #666666;
+  color: $color__footer;
   font-size: 12px;
   
 }
 
 table.footer-wrap a {
-  color: #999999;
+  color: $color__footer;
 }
 
 
