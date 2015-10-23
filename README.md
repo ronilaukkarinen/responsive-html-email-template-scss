@@ -7,7 +7,7 @@ Sometimes all you want is a really simple HTML email template to edit with Gulp 
 ## Getting started
 
 1. Clone this repo
-2. Edit `config.js` (MailChimp and MailGun API endpoints)
+2. Edit `config.default.json` (MailChimp and MailGun API endpoints) and save it as `config.json`
 3. `npm install`
 4. `gulp`
 5. Start editing files under `src/`
