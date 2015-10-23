@@ -11,7 +11,6 @@ Sometimes all you want is a really simple HTML email template to edit with Gulp 
 3. `npm install`
 4. `gulp`
 5. Start editing files under `src/`
-6. When you are done, run html file through [MailChimp's CSS Inliner Tool](http://templates.mailchimp.com/resources/inline-css/)
 
 You can add as many email templates you like. Just edit `gulpfile.js` to point to your html file you are currently editing. Don't forget to call correct css file after `<title>`:
 
